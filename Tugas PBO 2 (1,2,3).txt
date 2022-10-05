@@ -1,0 +1,38 @@
+Tugas 2 PBO
+Nama  : Billy AB
+Kelas : TI21F
+NIM   : 20210040100
+
+1. Jelaskan apa yang dimaksud dengan class dan object!
+2. Sebutkan dan jelaskan jenis-jenis method !
+3. Berdasarkan gambar berikut ini, jelaskan masing-masing bagian sesuai
+   dengan nomor yang ada!
+
+Jawaban :
+1. Class dan object adalah sebuah konsep yang saling
+berkaitan erat dan tidak dapat dipisahkan. Class merupakan cetak biru atau
+kerangka dalam pembuatan program, sedangkan object adalah hasil instance
+atau penciptaan dari sebuah class. Class merupakan prototipe yang
+mendefinisikan attribute dan behavior secara umum. Saat implementasi kedalam
+sebuah program attribute dimodelkan sebagai variabel dan behavior dimodelkan
+sebagai method atau yang lebih dikenal dikalangan programmer adalah function. 
+
+2.jenis-jenis method :
+a) Method Overloading di kelas yang sama, yaitu dua atau lebih method di kelas yang sama dengan nama sama namun deklarasi parameter berbeda.
+b) Method Construktor, yaitu method yang dapat digunakan untuk memberikan nilai awal saat objek diciptakan. Tidak memiliki nilai return dan tidak
+boleh ada kata kunci void.
+c) Assesor dan Mutator, yaitu method untuk mengambil nilai yang diprivate.
+d) Construktor Overloading, yaitu method construktor yang ditimpa atau di overload.
+e) Method Overriding di subclass, yaitu method override terhadap method superclass.
+f) Method Biasa Tanpa Parameter, yaitu method tanpa parameter.
+g) Method Berparameter, yaitu method dengan parameter.
+
+3. Berdasarkan gambar berikut ini, jelaskan masing-masing bagian sesuai dengan nomor yang ada!
+1) Class, dengan nama kelas Komputer.
+2) Atribute yang ada di kelas komputer yaitu jenis_komputer, dan merk.
+3) Method setter dengan nama setDataKomputer, dengan inputan jenis, dan merk yang nantinya akan dimasukan ke atribute kelas Komputer.
+4) Method getter dengan nama getJenis, untuk mengambil atribute jenis_komputer.
+5) Method getter dengan nama getMerk, untuk mengambil atribute private merk.
+6) Object, pembuatan object dengan nama mykom dari class Komputer.
+7) Input setter, menset atribute dari object mykom dengan inputan jenis_komputer nya yaitu LAPTOP lalu merk nya yaitu MACBOOK.
+8) Menampilkan getter, menampilkan jenis komputer dan merk nya pada console.
